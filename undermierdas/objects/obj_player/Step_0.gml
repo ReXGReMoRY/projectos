@@ -35,3 +35,7 @@ if (vsp != 0) {
         }
     }
 }
+
+if (!can_move) exit;
+
+// Resto del código de movimiento aquí
