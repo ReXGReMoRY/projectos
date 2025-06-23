@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sdirtfloor",
-    "path":"sprites/Sdirtfloor/Sdirtfloor.yy",
+    "name":"Stemplefloor",
+    "path":"sprites/Stemplefloor/Stemplefloor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
