@@ -3,10 +3,10 @@ hsp = 0;
 vsp = 0;
 
 // Input básico tipo Undertale
-if (keyboard_check(vk_left))  hsp = -move_speed;
-if (keyboard_check(vk_right)) hsp = move_speed;
-if (keyboard_check(vk_up))    vsp = -move_speed;
-if (keyboard_check(vk_down))  vsp = move_speed;
+if (keyboard_check(ord("A")))  hsp = -move_speed;
+if (keyboard_check(ord("D"))) hsp = move_speed;
+if (keyboard_check(ord("W")))    vsp = -move_speed;
+if (keyboard_check(ord("S")))  vsp = move_speed;
 
 // Movimiento por eje (para evitar movimientos diagonales)
 if (hsp != 0) vsp = 0;
