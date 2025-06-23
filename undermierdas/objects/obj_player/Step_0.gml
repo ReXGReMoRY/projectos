@@ -38,4 +38,5 @@ if (vsp != 0) {
 
 if (!can_move) exit;
 
-// Resto del código de movimiento aquí
+// Resto del código de movimiento aquí 
+//dick Nigger dick dick Nigger
