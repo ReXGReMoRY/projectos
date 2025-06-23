@@ -1,19 +1,19 @@
-velocidadx = 0;
-velocidady += 0.1;
-
-if (keyboard_check(ord("A")))
+velocidady = velocidady + 0.1;
+velocidadx = 0
+if keyboard_check(ord("A"))
 {
-    velocidadx = -velocidadMovimiento; // Izquierda
+	velocidadx = velocidadx - 3;
 }
-else if (keyboard_check(ord("D")))
+if keyboard_check(ord("D"))
 {
-    velocidadx = +velocidadMovimiento; // Derecha
+	velocidadx = velocidadx + 3;
 }
-else if (keyboard_check(vk_space))
+if keyboard_check_pressed(vk_space)
 {
-	velocidady = -velocidadMovimiento;
+	velocidady = velocidady - 5;
 }
-
-
-x += velocidadx;
-y += velocidady;
+if place_meeting(x, y + 1, _collision_objects)
+{
+	velocidady = 0;
+}
+move_and_collide(velocidadx, velocidady, _collision_objects);

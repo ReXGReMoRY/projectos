@@ -38,8 +38,6 @@
     {"id":{"name":"Oburst","path":"objects/Oburst/Oburst.yy",},},
     {"id":{"name":"Odirtfloor","path":"objects/Odirtfloor/Odirtfloor.yy",},},
     {"id":{"name":"Odirtfloor2","path":"objects/Odirtfloor2/Odirtfloor2.yy",},},
-    {"id":{"name":"Ohealth","path":"objects/Ohealth/Ohealth.yy",},},
-    {"id":{"name":"Oinventory","path":"objects/Oinventory/Oinventory.yy",},},
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"Orock","path":"objects/Orock/Orock.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

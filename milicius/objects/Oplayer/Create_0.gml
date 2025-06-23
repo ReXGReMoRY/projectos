@@ -1,4 +1,4 @@
  velocidadx = 0;
  velocidady = 0;
- velocidadMovimiento = 3;
- velocidadMovimientoShift = 6;
+ 
+ _collision_objects = [Odirtfloor, Odirtfloor2];
