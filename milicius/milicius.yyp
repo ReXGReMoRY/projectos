@@ -35,6 +35,7 @@
   },
   "name":"milicius",
   "resources":[
+    {"id":{"name":"Oburst","path":"objects/Oburst/Oburst.yy",},},
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
