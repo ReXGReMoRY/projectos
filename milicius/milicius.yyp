@@ -38,6 +38,7 @@
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SBackground","path":"sprites/SBackground/SBackground.yy",},},
+    {"id":{"name":"Sburst1","path":"sprites/Sburst1/Sburst1.yy",},},
     {"id":{"name":"Splayer","path":"sprites/Splayer/Splayer.yy",},},
   ],
   "resourceType":"GMProject",
