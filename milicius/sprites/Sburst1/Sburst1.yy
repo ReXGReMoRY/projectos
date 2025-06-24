@@ -115,6 +115,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"05cfaf56-ab84-45e8-a2f1-f9169ab27cda","blendMode":0,"displayName":"default","isLocked":false,"name":"05cfaf56-ab84-45e8-a2f1-f9169ab27cda","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6ea8e16b-f9fe-400c-83b2-9c7c09372eb2","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6ea8e16b-f9fe-400c-83b2-9c7c09372eb2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sburst1",
   "nineSlice":null,
