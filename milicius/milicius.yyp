@@ -37,9 +37,11 @@
   "resources":[
     {"id":{"name":"Oburst","path":"objects/Oburst/Oburst.yy",},},
     {"id":{"name":"Oburstrock","path":"objects/Oburstrock/Oburstrock.yy",},},
+    {"id":{"name":"OContadorDeMuertes","path":"objects/OContadorDeMuertes/OContadorDeMuertes.yy",},},
     {"id":{"name":"Odirtfloor","path":"objects/Odirtfloor/Odirtfloor.yy",},},
     {"id":{"name":"Odirtfloor2","path":"objects/Odirtfloor2/Odirtfloor2.yy",},},
     {"id":{"name":"Ohitboxburst","path":"objects/Ohitboxburst/Ohitboxburst.yy",},},
+    {"id":{"name":"OInterfaz","path":"objects/OInterfaz/OInterfaz.yy",},},
     {"id":{"name":"Oplayer","path":"objects/Oplayer/Oplayer.yy",},},
     {"id":{"name":"Orock","path":"objects/Orock/Orock.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
