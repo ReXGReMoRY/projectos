@@ -5,5 +5,6 @@
  vida = 100;
  vida_max = 100;
  muerto = false;
+muerte_contada = false;
  
  _collision_objects = [Odirtfloor, Odirtfloor2];

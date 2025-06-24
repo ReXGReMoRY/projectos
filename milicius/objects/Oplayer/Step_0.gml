@@ -1,6 +1,11 @@
 velocidady = velocidady + 0.15;
 velocidadx = 0;
-if (muerto) exit;
+if (muerto) 
+{
+	sprite_index = noone;
+	ContadorMuerte();
+	exit;
+}
 if keyboard_check(ord("A"))
 {
 	velocidadx = velocidadx - 3;
