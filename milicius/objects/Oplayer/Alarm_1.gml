@@ -1,2 +1,2 @@
 show_debug_message("axioma");
-room_restart();
+room_restart(); //Se reinicia toda la room

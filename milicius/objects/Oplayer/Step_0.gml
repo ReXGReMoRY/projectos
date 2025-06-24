@@ -1,10 +1,10 @@
 velocidady = velocidady + 0.15;
 velocidadx = 0;
-if (muerto) 
+if (muerto) //Si estoy muerto
 {
-	sprite_index = noone;
-	ContadorMuerte();
-	exit;
+	sprite_index = noone; //Deja de tener sprite el jugador
+	ContadorMuerte(); //Se llama a la funcion de contador muerte
+	exit; //Se sale de el codigo de Step del jugador
 }
 if keyboard_check(ord("A")) //Moverse con la A hacia la izquierda
 {

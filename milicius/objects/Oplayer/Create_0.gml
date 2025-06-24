@@ -1,4 +1,4 @@
- global.Oplayer = id;
+ global.Oplayer = id; //Se publica la variable para que sea accesible para todo script
  window_set_size(1280, 720);
  velocidadx = 0;
  velocidady = 0;
@@ -7,4 +7,4 @@
  muerto = false;
 muerte_contada = false;
  
- _collision_objects = [Odirtfloor, Odirtfloor2];
+ _collision_objects = [Odirtfloor, Odirtfloor2]; //Todos los objetos a los que colisionaré
