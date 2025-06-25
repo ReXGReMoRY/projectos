@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oInicio",
+  "%Name":"oDiamante",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oInicio",
+  "name":"oDiamante",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos invisibles",
-    "path":"folders/Objects/Objetos invisibles.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sDiamante",
+    "path":"sprites/sDiamante/sDiamante.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
