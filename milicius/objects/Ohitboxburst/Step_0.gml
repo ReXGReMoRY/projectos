@@ -1,12 +1,12 @@
 if place_meeting(x, y, Oplayer) //Si el sprite del burst le ha dado al jugador
 {
 	
-	if (instance_exists(global.Oplayer))
+	if (instance_exists(global.Oplayer)) //Si no se ha borrado el instance del jugador
 	{
-		with (global.Oplayer)
+		with (global.Oplayer) //Con los valores del codigo de Oplayer
 		{
-			vida = 0;
-			effect_create_above(ef_explosion, Oplayer.x, Oplayer.y, 1, c_red);
+			vida -= 1;
+			show_debug_message(vida);
 			if (vida == 0) //Si no tengo vida le digo que estoy muerto
 			{
 				muerto = true;

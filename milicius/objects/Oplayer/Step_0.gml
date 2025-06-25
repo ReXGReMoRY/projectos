@@ -23,4 +23,10 @@ if place_meeting(x, y + 1, _collision_objects) //En caso de que haga colision
 		velocidady = velocidady - 6;
 	}
 }
+if keyboard_check(ord("J"))
+{
+	room_goto(Room2);
+}
+
+
 move_and_collide(velocidadx, velocidady, _collision_objects);

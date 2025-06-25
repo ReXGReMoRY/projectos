@@ -6,5 +6,6 @@
  vida_max = 100;
  muerto = false;
 muerte_contada = false;
+Oplayer.friction = 0.1;
  
  _collision_objects = [Odirtfloor, Odirtfloor2]; //Todos los objetos a los que colisionaré
