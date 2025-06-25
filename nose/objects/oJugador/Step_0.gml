@@ -20,4 +20,16 @@ if keyboard_check(ord("C"))
 {
 	SelectorDeOres();
 }
+if keyboard_check_pressed(ord("V"))
+{
+	_modo_vender = true;
+}
+if _modo_vender
+{
+	Vender();
+}
+if keyboard_check(ord("P"))
+{
+	global.oInterfaz._roca_cantidad += 1;
+}
 move_and_collide(_xspeed, _yspeed, oSuelo);

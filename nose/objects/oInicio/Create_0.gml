@@ -1,0 +1,3 @@
+global.oInicio = id;
+SelectorDeOres();
+ 
