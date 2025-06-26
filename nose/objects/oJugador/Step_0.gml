@@ -32,4 +32,5 @@ if keyboard_check(ord("P"))
 {
 	global.oInterfaz._roca_cantidad += 1;
 }
+
 move_and_collide(_xspeed, _yspeed, oSuelo);
