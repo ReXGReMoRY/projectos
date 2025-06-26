@@ -1,2 +1,2 @@
 show_debug_message("Gillionaire desaparece");
-_gillionaire_desaparece = true;
+global.oInterfaz._gillionaire_desaparece = true;
