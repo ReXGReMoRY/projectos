@@ -4,7 +4,7 @@ if oOcioditeBurst.image_index == 76
 			effect_create_above(ef_explosion, x + 100, oSuelo.y - 40, 1000, c_green);
 			
 		}
-if oOcioditeBurst.image_index >= 95
+if oOcioditeBurst.image_index > 95
 	{
 		instance_destroy();
 	}
