@@ -1,4 +1,5 @@
 draw_set_color(c_white);
+_roca_cantidad_anterior = _roca_cantidad;
 draw_text(fa_top + 10, fa_left + 10, "Roca: " + string(_roca_cantidad));
 draw_text(fa_top + 10, fa_left + 30, "Hierro: " + string(_hierro_cantidad));
 draw_set_color(c_yellow);
@@ -11,7 +12,7 @@ if _diamante_cantidad > 0
 
 	var offset_x = sway_amplitud * sin(current_time * sway_velocidad);
 	draw_text(fa_top + 10 + offset_x, fa_left + 50, "Diamante: " + string(_diamante_cantidad));
-
+	_Ore_recogido = "Diamante";
 
 	
 	
@@ -26,6 +27,7 @@ if _amatista_cantidad > 0 //Si tiene mas de 0 de amatista
 
 	var offset_x = sway_amplitud * sin(current_time * sway_velocidad);
 	draw_text(fa_top + 10 + offset_x, fa_left + 70, "Amatista: " + string(_amatista_cantidad));	
+	_Ore_recogido = "Amatista";
 }
 
 if _ociodite_cantidad > 0
@@ -43,18 +45,16 @@ if _ociodite_cantidad > 0
 
 
 
-if _dinero >= 5000 && _gillionaire_desaparece == false
+if _gillionaire_logro && !_gillionaire_desaparece
 {
     draw_set_color(c_yellow);
     
-    // Parte 1: texto normal
-    draw_set_font(-1); // fuente normal
+    draw_set_font(-1);
     draw_text(oJugador.x, oJugador.y - 70, "Has ganado el logro ¡");
     
     var ancho_parte1 = string_width("Has ganado el logro ¡");
     
-    // Parte 2: texto especial (solo "Gillionaire!")
-    draw_set_font(Font2); // fuente especial
+    draw_set_font(Font2);
     
     var _time = current_time / 100;
     
@@ -67,9 +67,9 @@ if _dinero >= 5000 && _gillionaire_desaparece == false
     var _x_offset = sin(_time) * 10;
     
     draw_text(oJugador.x + ancho_parte1 + _x_offset, oJugador.y - 70, "Gillionaire!");
+    
     draw_set_color(c_white);
 }
-	
 
 if global.oJugador._Puede_vender == true
 {

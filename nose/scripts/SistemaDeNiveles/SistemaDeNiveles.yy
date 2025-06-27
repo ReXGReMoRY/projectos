@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SistemaDeNiveles",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SistemaDeNiveles",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

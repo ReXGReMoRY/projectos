@@ -7,5 +7,9 @@ _ociodite_cantidad = 0;
 
 //achievements
 _5000_dinero_achievement = false;
-_gillionaire_desaparece = true;
+_gillionaire_desaparece = false;
+_gillionaire_logro = false; //El logro que se guarda
+
+
+
 _dinero = 0;

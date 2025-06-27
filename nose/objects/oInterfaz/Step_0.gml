@@ -1,5 +1,6 @@
-if _dinero >= 5000  // la primera vez que lo activas
+if _dinero >= 5000 && !_gillionaire_logro // Solo si no lo activaste ya
 {
-    _gillionaire_desaparece = false;  // mostrar el texto
-    alarm[1] = room_speed * 3;        // empezar cuenta atrás para ocultar
+    _gillionaire_desaparece = false;
+    _gillionaire_logro = true;
+    alarm[1] = room_speed * 4;
 }

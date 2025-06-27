@@ -51,6 +51,7 @@
     {"id":{"name":"oSueloVacio","path":"objects/oSueloVacio/oSueloVacio.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SelectorDeOres","path":"scripts/SelectorDeOres/SelectorDeOres.yy",},},
+    {"id":{"name":"SistemaDeNiveles","path":"scripts/SistemaDeNiveles/SistemaDeNiveles.yy",},},
     {"id":{"name":"Vender","path":"scripts/Vender/Vender.yy",},},
     {"id":{"name":"sAmatista","path":"sprites/sAmatista/sAmatista.yy",},},
     {"id":{"name":"sDiamante","path":"sprites/sDiamante/sDiamante.yy",},},

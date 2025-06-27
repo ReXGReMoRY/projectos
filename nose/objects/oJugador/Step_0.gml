@@ -11,7 +11,7 @@ if keyboard_check(ord("D"))
 if place_meeting(x, y + 1, oSuelo)
 {
 	_yspeed = 0;
-	if keyboard_check(vk_space)
+	if keyboard_check_pressed(vk_space)
 	{
 		_yspeed -= 5;
 	}
