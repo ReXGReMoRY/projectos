@@ -1,0 +1,1 @@
+_projectil_velocidad = 0;
