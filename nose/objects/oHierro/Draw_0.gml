@@ -17,6 +17,8 @@ if _minando //Si estoy minando
 		_y2 = 0;
 	 _minando = false;
 		global.oInterfaz._hierro_cantidad += 1; //Se suma la cantidad de rocas
+		global.oJugador._experiencia += 2;
+		SistemaDeNiveles();
 		SelectorDeOres();
 		instance_destroy(); //Se elimina
 	}

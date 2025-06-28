@@ -78,3 +78,10 @@ if global.oJugador._Puede_vender == true
 		draw_text(oJugador.x, oJugador.y - 50, "Puede vender roca! (G para vender)");
 		draw_self();
 }
+if  _show_level_message == true
+{
+	draw_set_color(c_white);
+	draw_text(oJugador.x, oJugador.y - 60, "Has subido al nivel " + string(global.oJugador._nivel_) + "!");
+	
+}
+	
